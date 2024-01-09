@@ -1,0 +1,117 @@
+.container{
+    display: grid;
+}
+.navigation{
+    display: grid;
+    justify-self: stretch;
+    background-color: yellow;
+}
+#image{
+    width: 45px;
+    height: 45px;
+    border-radius: 4cm;
+    justify-self:  end;
+    grid-column: 2;
+
+}
+.body{
+    display: grid;
+    justify-content: center;
+}
+#link{
+    color: #0D46D9;
+    font-size: 10px;
+    font-family: HelveticaNeue;
+    font-weight: 400;
+    float: right;
+    word-wrap: break-word;
+    justify-self: end;
+}
+#head{
+    color: black;
+    font-size: 24px;
+    font-family: HelveticaNeue;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+}
+.p1{
+    color: black;
+    font-size: 10px;
+    font-family: HelveticaNeue;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+   
+}
+#p2{
+    color: #BBBBBB;
+    font-size: 18px;
+    font-family: HelveticaNeue;
+    font-weight: 400;
+    text-align: center;
+    word-wrap: break-word
+
+}
+#p3{
+    color: #626262;
+    font-size: 10px;
+    font-family: HelveticaNeue;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+#username{
+    color:black;
+    font-size: 12px;
+    font-family: HelveticaNeue;
+    font-weight: 400;
+    word-wrap: break-word;
+    border: none; 
+    outline: none; 
+    background: transparent; 
+    border-bottom: 1px solid black;
+    width: 100%;
+    
+}
+#button{
+    height: 48px;
+    width:228px;
+    background-color: black;
+    border-radius: 50px;
+    color: yellow;
+}
+#button2{
+    height: 48px;
+    width:228px;
+    background-color: #BBBBBB;
+    border-radius: 50px;
+    color: white;
+}
+
+#password {
+    color: black;
+    font-size: 12px;
+    font-family: HelveticaNeue;
+    font-weight: 400;
+    word-wrap: break-word;
+    border: none; 
+    outline: none; 
+    background: transparent; 
+    border-bottom: 1px solid black; 
+    width: 100%; 
+}
+#label1,#label2{
+    height: 11px;
+    width: 97px;
+    color: #BBBBBB;
+    font-size: 9px;
+    font-family: HelveticaNeue;
+    font-weight: 400;
+    word-wrap: break-word
+}
+.hide,.hide2{
+    display: none;
+}
+
